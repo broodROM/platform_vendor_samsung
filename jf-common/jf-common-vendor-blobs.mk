@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \v
+        vendor/samsung/jf-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
         vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
