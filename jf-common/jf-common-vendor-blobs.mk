@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libc2d30_a3xx.so:system/vendor/lib/libc2d30_a3xx.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libllvm_a3xx.so:system/vendor/lib/libllvm_a3xx.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
         vendor/samsung/jf-common/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
         vendor/samsung/jf-common/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
