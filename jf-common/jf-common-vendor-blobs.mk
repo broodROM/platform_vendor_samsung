@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/jf-common/proprietary/bin/thermald:system/bin/thermald \
         vendor/samsung/jf-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-        vendor/samsung/jf-common/proprietary/bin/time_daemon:system/bin/time_daemon \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
         vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
@@ -38,18 +37,19 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libc2d30_a3xx.so:system/vendor/lib/libc2d30_a3xx.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libllvm_a3xx.so:system/vendor/lib/libllvm_a3xx.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-        vendor/samsung/jf-common/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-        vendor/samsung/jf-common/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-        vendor/samsung/jf-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
         vendor/samsung/jf-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+        vendor/samsung/jf-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
         vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
         vendor/samsung/jf-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
         vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/jf-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
         vendor/samsung/jf-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
         vendor/samsung/jf-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+        vendor/samsung/jf-common/proprietary/bin/time_daemon:system/bin/time_daemon \
         vendor/samsung/jf-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
         vendor/samsung/jf-common/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
         vendor/samsung/jf-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
